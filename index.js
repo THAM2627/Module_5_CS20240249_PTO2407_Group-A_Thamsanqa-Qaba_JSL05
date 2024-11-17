@@ -19,6 +19,9 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax": "R&B",
+    "Rocket": "Rock",
+    "Groot": "Pop",
     // Add preferences for Drax, Rocket, and Groot
 };
 
@@ -29,6 +32,6 @@ function generatePlaylist(guardians, songs) {
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
-generatePlaylist(guardians, songs);
+generatePlaylist(guardians(Gamora), songs);
 
 
